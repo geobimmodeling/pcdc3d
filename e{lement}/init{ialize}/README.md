@@ -7,7 +7,7 @@ pcdc e{lement} <span style='color: red;'>init{ialize}</span>
 
 **举例：**
 ```
-pcdc element init s-xx 0.0 s-yy 1e6 range y 0 100.0
-#该命令把Y从0到100.0范围内的单元X方向应力初始化为0.0，Y方向应力初始化为1e6
+pcdc element init s-xx 1e6 s-yy 1e6 s-zz 2e6 range y 0 100.0
+#该命令把Y从0到100.0范围内的单元X方向应力初始化为1e6，Y方向应力初始化为1e6,Z方向应力初始化为2e6 
 
 ```
